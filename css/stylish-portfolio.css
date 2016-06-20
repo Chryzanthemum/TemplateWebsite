@@ -155,11 +155,12 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background-color: #FFFFFF
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 /* About */
@@ -168,8 +169,19 @@ hr.small {
     padding: 50px 0;
 }
 
+<<<<<<< HEAD
 .board {
     padding: 50px 0;
+=======
+.about2 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+>>>>>>> origin/master
 }
 
 /* Services */
@@ -189,6 +201,8 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
+    font-family: Articulat;
+    src: url(../fonts/Articulat.ttf)
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
